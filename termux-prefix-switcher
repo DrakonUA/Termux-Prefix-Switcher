@@ -2,12 +2,12 @@
 # Termux Prefix Switcher
 # This Program will switch Termux Environment from 64-bit to 32-bit
 # Android 5/6 isn't supported currently
-case "$ (getprop ro.build.version.release)" in 5*|6*)
-		echo "Android 5/6 isn't supported"
-		exit 2
-		;;
-	*) ;;
-esac
+# case "$ (getprop ro.build.version.release)" in 5*|6*)
+#		echo "Android 5/6 isn't supported"
+#		exit 2
+#		;;
+#	*) ;;
+# esac
 
 unset LD_PRELOAD
 
